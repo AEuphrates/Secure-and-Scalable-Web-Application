@@ -36,7 +36,7 @@ Bu projede yapılan her öğe, Google Cloud Platform'un sağlam bulut altyapıs�
 2. Servis hesabı oluşturun ve JSON anahtar dosyasını indirin.
 3. Terraform yapılandırma dosyalarınızı yerel ortamınıza kopyalayın.
 4. `terraform init` ve `terraform apply` komutlarını çalıştırarak altyapınızı dağıtın.
-5. Terraform kullanılmadan yapılan ayarlamalar için lütfen diğer dosyayı kontrol edin.
+5. Terraform kullanılmadan yapılan ayarlamalar için lütfen `Google Console` dosyasını kontrol edin.
 
 ## Güvenlik ve İzinler
 
