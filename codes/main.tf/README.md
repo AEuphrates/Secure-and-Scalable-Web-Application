@@ -1,4 +1,4 @@
-# Terraform main.tf file
+# Terraform ile GCP Altyapısı Oluşturma
 
 Bu dosya, Google Cloud Platform üzerinde bir VPC ağı, bir alt ağ, bir sağlık kontrolü ve bir Google Storage bucket oluşturmak için Terraform kullanır. 
 
