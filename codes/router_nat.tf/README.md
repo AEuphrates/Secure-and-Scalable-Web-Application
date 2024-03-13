@@ -16,13 +16,13 @@
 
 Cloud Router, belirli bir VPC ağı içinde oluşturulur ve NAT Gateway ile ilişkilendirilir:
 
-**resource "google_compute_router" "cloud_router"** {
+    **resource "google_compute_router" "cloud_router"** {
 
     name    = "my-cloud-router"
     
     network = google_compute_network.vpc_network.self_link
     
-}
+    }
 
 ## NAT Gateway Oluşturma
 
