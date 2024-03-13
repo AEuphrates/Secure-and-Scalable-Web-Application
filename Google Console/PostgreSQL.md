@@ -31,6 +31,7 @@ Veritabanı örneğiniz için IP adresi türünü seçin. Burada, daha güvenli 
 **Network** seçeneği altında, Terraform ile önceden oluşturulmuş olan my-vpc-network isimli VPC ağını seçin. Bu, PostgreSQL örneğinizin belirtilen VPC ağında çalışacağı ve bu ağ üzerindeki kaynaklarla iletişim kurabileceği anlamına gelir.
 
 Aşağıdaki görselde bahsedilen adımların özetini görebilirsiniz:
+
 ![postgresql](https://github.com/AEuphrates/Secure-and-Scalable-Web-Application/assets/155168172/0831d8aa-f846-4997-9a97-d2c007c341e5)
 
 Bahsedilmeyen diğer ayarları (CPU, Memory vs.), projenize göre değiştirebilirsiniz.
