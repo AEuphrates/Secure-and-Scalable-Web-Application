@@ -23,6 +23,10 @@ Bu repo aşağıdaki örnekleri içerir:
 3. `instance_group.tf`: E2-micro tipinde bir instance template ve Managed Instance Group oluşturur.
 4. `autoscaler.tf`: Instance Group için CPU kullanımına dayalı bir otomatik ölçeklendirici oluşturur.
 5. `load_balancer.tf`: Trafik yükünü yönetmek için bir yük dengeleyici ve sağlık kontrolü yapılandırır.
+6. `PostgreSQL` yaratıldı.
+7. En az ayrıcalık (least privilege principle) ilkesine göre bir `Service Account` oluşturuldu.
+8. Projeyle uyumlu olarak CPU'nun belirli bir değerin üzerine çıktığında alarm verilmesi için policy oluşturuldu.
+9. Terraform kullanarak oluşturduğumuz `VM Instance`'den `PostgreSQL`'a erişildi.
 
 ## Yapılandırma ve Deployment
 
