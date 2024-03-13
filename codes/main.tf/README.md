@@ -13,15 +13,15 @@ Projeyi başlatmak ve yönetmek için aşağıdaki adımları izleyin.
 1. Google Cloud projesi oluşturun veya mevcut bir projeyi kullanın.
 2. `jsonfile.json` adında (veya sizin vereceğiniz başka bir isim) bir servis hesabı anahtarı dosyası oluşturun ve ilgili izinlere sahip olduğundan emin olun. Bu dosya, Terraform'un Google Cloud kaynaklarını yönetmek için kullanacağı kimlik bilgilerini içerir.
 3. Servis hesabı anahtarı dosyasının yolu, Terraform yapılandırmanızda belirtilmelidir.
-   
-   provider "google" {
+
+    provider "google" {
    
     project     = "terraform-project-416921"
    
     credentials = file("/path/json_dosyasi_ismi.json")
    
     region      = "europe-west1"
-}
+    }
 
 ## Kullanım
 1. Terraform yapılandırma dosyalarınızın bulunduğu dizinde, Terraform'u başlatın:
